@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import './App.css'
+import React, { Component } from "react";
+import "./App.css";
+import PokemonList from "./PokemonList";
+import Footer from "./Footer";
 
 const COLORS = {
   Psychic: "#f8a5c2",
@@ -13,15 +15,18 @@ const COLORS = {
   Darkness: "#574b90",
   Colorless: "#FFF",
   Fire: "#eb4d4b"
-}
+};
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1 className="header"> My Pokedex </h1>
+        <PokemonList />
+        <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

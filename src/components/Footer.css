@@ -1,0 +1,33 @@
+.Footer {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 60px;
+  background: #ec5656;
+}
+
+/* .add-btn {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: absolute;
+  background: #ec5656;
+  width: 100%; 
+  justify-content: center;
+} */
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 4em;
+  position: absolute;
+  background: #ec5656;
+  top: -45px;
+  border-radius: 50%;
+  width: 100px;
+  justify-content: center;
+  right: calc(50% - 50px);
+  cursor: pointer;
+}
